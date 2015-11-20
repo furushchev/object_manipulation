@@ -5,7 +5,7 @@ find_package(catkin REQUIRED COMPONENTS arm_navigation_msgs geometry_msgs sensor
 
 add_message_files(
   DIRECTORY msg
-  FILES 
+  FILES
   DatabaseModelPoseList.msg
   DatabaseModelPose.msg
   DatabaseReturnCode.msg
