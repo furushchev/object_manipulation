@@ -38,15 +38,6 @@
   <run_depend>arm_navigation_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
 
-  <test_depend>actionlib_msgs</test_depend>
-  <test_depend>std_msgs</test_depend>
-  <test_depend>geometry_msgs</test_depend>
-  <test_depend>sensor_msgs</test_depend>
-  <test_depend>trajectory_msgs</test_depend>
-  <test_depend>sensor_msgs</test_depend>
-  <test_depend>household_objects_database_msgs</test_depend>
-  <test_depend>arm_navigation_msgs</test_depend>
-
   <export>
     <cpp cflags="-I${prefix}/include"/>
   </export>
