@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>object_manipulation</name>
+  <version>0.7.0</version>
+  <description>The object_manipulation package</description>
+  <maintainer email="matei@willowgarage.com">Matei Ciocarlie</maintainer>
+  <license>BSD</license>
+  <author>Matei Ciocarlie</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>object_manipulation_msgs</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
