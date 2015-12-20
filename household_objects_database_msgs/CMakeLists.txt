@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(household_objects_database_msgs)
 
-find_package(catkin REQUIRED COMPONENTS arm_navigation_msgs geometry_msgs sensor_msgs message_generation)
+find_package(catkin REQUIRED COMPONENTS arm_navigation_msgs geometry_msgs sensor_msgs shape_msgs message_generation)
 
 add_message_files(
   DIRECTORY msg
@@ -24,7 +24,7 @@ add_service_files(
 )
 
 generate_messages(
-  DEPENDENCIES geometry_msgs std_msgs arm_navigation_msgs sensor_msgs
+  DEPENDENCIES geometry_msgs std_msgs arm_navigation_msgs sensor_msgs shape_msgs
 )
 
 catkin_package(
