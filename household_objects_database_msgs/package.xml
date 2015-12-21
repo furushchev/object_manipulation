@@ -23,5 +23,6 @@
   <run_depend>arm_navigation_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
+  <run_depend>shape_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
 </package>

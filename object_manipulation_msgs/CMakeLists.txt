@@ -51,7 +51,14 @@ add_action_files(
 )
 
 generate_messages(
-  DEPENDENCIES actionlib_msgs std_msgs geometry_msgs sensor_msgs trajectory_msgs sensor_msgs arm_navigation_msgs household_objects_database_msgs
+  DEPENDENCIES
+  actionlib_msgs
+  std_msgs
+  geometry_msgs
+  trajectory_msgs
+  sensor_msgs
+  arm_navigation_msgs
+  household_objects_database_msgs
 )
 
 catkin_package(
